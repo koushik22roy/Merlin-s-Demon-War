@@ -8,7 +8,7 @@ public class GameOver : MonoBehaviour
 {
     public Text scoreText =null;
     public Text killsText =null;
-
+    //void awake
     private void Awake()
     {
         scoreText.text = "Score: "+GameController.instance.playerScore.ToString();
